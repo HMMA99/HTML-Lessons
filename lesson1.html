@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Lessons Part 1</title>
+</head>
+<body>
+<h1>Heading One</h1>
+<h1 style="font-size: 100px;">Heading</h1>
+
+<h2>Heading Two</h2>
+<h3>Heading Three</h3>
+<h4>Heading Four</h4>
+<h5>Heading Five</h5>
+<h6>Heading Six</h6>
+<p>My Paragraph</p>
+<hr> <!-- It is for drawing horizontal line in web page -->
+
+<pre> <!-- It is for showing the texts as we write. Example, it is used for writing poems and formulas-->
+	function showMessage(){
+		alert("Hello World");
+	}
+</pre>
+<hr>
+<!-- Form Lessons -->
+
+<!-- Form Style 1 -->
+
+<form action="" method="">
+	<label for="userName">Phone</label>
+	<input type="text" id="phoneNumber" class="" placeholder="09xxxxxxxx">
+
+	<label for="">User Name</label>
+	<input type="text" id="userName"> <br>
+
+	<input type="button" value="Button Style 1"> <!-- how to write button method 1-->
+	<button>Button Style 2</button>				 <!-- how to write button method 2-->
+</form>
+<br>
+<hr>
+<!-- Form Style 2 -->
+<form>
+	<label for="firstname">First Name</label><br>
+	<input type="text" id="firstname" name="firstname"><br>
+	<label for="lastname">Last Name</label><br>
+	<input type="text" id="lastname" name="lastname"><br>
+</form>
+<br>
+<hr>
+<!-- Radio Buttons -->
+<!-- Radio Buttons Style 1-->
+<form>
+	<input type="radio" id="apple" name="fruits" value="Apple">
+	<label for="apple">Apple</label><br>
+
+	<input type="radio" id="orange" name="fruits" value="Orange">
+	<label for="orange">Orange</label><br>
+
+	<input type="radio" id="kiwi" name="fruits" value="Kiwi">
+	<label for="kiwi">Kiwi</label><br>
+</form>
+<br>
+<hr>
+<!-- Radio Buttons Style 2-->
+<h3>Choose Gender</h3>
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<br>
+<hr>
+<!-- Check Box -->
+<h3>Choose Language</h3>
+<input type="checkbox" name="language">Japan
+<input type="checkbox" name="language">Korea
+<input type="checkbox" name="language">Chinese
+<br>
+<hr>
+<!-- Range -->
+<input type="range" min="0" max="5">
+<br>
+<hr>
+<!-- Submit Button -->
+<input type="submit" value="SUBMIT">
+<br>
+<hr>
+<!-- User Name & Password Form Sample -->
+<form>
+	<label for="username">Username : </label><br>
+	<input type="text" id="username" name="username"><br>
+	<label for="password">Password :</label><br>
+	<input type="text" id="password" name="password" placeholder="xxxxx"><br>
+</form>
+<br>
+<hr>
+<!-- Date form -->
+<form>
+	<label for="bd">Birthday:</label>
+	<input type="date" id="bd" name="bd">
+	<input type="submit" value="Submit">
+</form>
+<br>
+<hr>
+<!-- Browse File form -->
+<form>
+	<label for="myfile">Select a file :</label><br>
+	<input type="file" id="myfile" name="file"><br>
+</form>
+<br>
+<hr>
+<!-- Quantity form -->
+<form>
+	<label for="qq">Quantity:</label><br>
+	<input type="number" id="qq" name="qq" min="0" max="100" step="10" value="30"><br>
+	<input type="submit" value="SUBMIT" name="submit"><br>
+</form>
+<br>
+<hr>
+<!-- Select Tag -->
+<select>
+	<option value="empty">Choose One</option>
+	<option value="m">Mango</option>
+	<option value="k">Kiwi</option>
+	<option value="c">Cherry</option>
+	<option value="p" selected>Papaya</option>
+	<option value="a">Apple</option>
+</select>
+<br>
+<hr>
+<!-- Textarea Tag -->
+<h3>Textarea</h3>
+<textarea rows="5" cols="50" placeholder="Enter Something....."></textarea>
+<br>
+<hr>
+<!-- Fieldset & Legend -->
+<fieldset style="width: 500px;">
+	<legend>My Information</legend>
+	<form>
+		<div>
+			<label for="myname">Name One</label>
+			<input type="text" id="myname" name="myname" placeholder="Enter Name....">
+		</div>
+		<div>
+			<label for="myname">Name Two</label>
+			<input type="text" id="myname" name="myname" placeholder="Enter Name....">
+		</div>
+	</form>
+</fieldset>
+<br>
+<hr>
+<!-- Data List -->
+<form>
+<h3>Data List</h3>
+<input type="text" list="mylist">
+<datalist id="mylist">
+	<option value="m">Mango</option>
+	<option value="k">Kiwi</option>
+	<option value="c">Cherry</option>
+</datalist>
+</form>
+<br>
+<hr>
+<!-- Option Group and Oprtion -->
+<form>
+	<h3>Option Group</h3>
+	<select>
+		<optgroup label="fruits">
+			<option value="m">Mango</option>
+			<option value="k">Kiwi</option>
+			<option value="c">Cherry</option>
+		</optgroup>
+		<br>
+		<optgroup label="things">
+			<option value="p">Purse</option>
+			<option value="j">Jacket</option>
+			<option value="t">Telephone</option>
+		</optgroup>
+	</select>
+</form>
+<br>
+<hr>
+</body>
+</html>
